@@ -2,4 +2,7 @@
     <string name="app_name">AI 手机伙伴</string>
     <string name="accessibility_service_label">AI 手机伙伴屏幕控制</string>
     <string name="accessibility_service_description">允许已配对的 AI 截图、读取界面结构、输入文字并执行手势。启用前请确认服务器和访问令牌由你控制。</string>
+    <string name="keepalive_title">小池的手机</string>
+    <string name="keepalive_text">保持连接中，别划掉这条通知</string>
+    <string name="keepalive_channel">保持连接</string>
 </resources>
