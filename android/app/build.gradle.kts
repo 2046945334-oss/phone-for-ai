@@ -5,7 +5,7 @@ android {
     compileSdk = 34
     defaultConfig {
         applicationId = "dev.phoneforai.companion"
-        minSdk = 34
+        minSdk = 33
         targetSdk = 34
         versionCode = 3
         versionName = "0.1.2"

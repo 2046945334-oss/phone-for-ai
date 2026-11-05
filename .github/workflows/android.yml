@@ -27,3 +27,8 @@ jobs:
       - name: Build debug APK
         working-directory: android
         run: ./gradlew --no-daemon testDebugUnitTest assembleDebug
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: phone-for-ai-debug-apk
+          path: android/app/build/outputs/apk/debug/*.apk
