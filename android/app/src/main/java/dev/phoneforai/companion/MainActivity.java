@@ -34,6 +34,7 @@ public final class MainActivity extends Activity {
         super.onCreate(state);
         setContentView(buildUi());
         BridgeClient.start(this);
+        KeepAliveService.start(this);
     }
     @Override protected void onResume() {
         super.onResume(); refresh(); BridgeClient.heartbeatNow(this);
